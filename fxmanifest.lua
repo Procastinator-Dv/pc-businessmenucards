@@ -1,8 +1,11 @@
 fx_version 'cerulean'
 game 'gta5'
+lua54 'yes'
 
 author 'Procastinator'
 version ' 1.0'
+
+shared_script '@ox_lib/init.lua'
 
 client_scripts {
     'config.lua',  -- Add this line to ensure the config file is loaded
